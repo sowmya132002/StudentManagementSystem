@@ -95,6 +95,14 @@ namespace StudentManagementSystem.Controllers
     //            expires: DateTime.UtcNow.AddMinutes(
     //                Convert.ToDouble(_configuration["Jwt:DurationInMinutes"])),
     //            signingCredentials: creds);
+    //  var token = new JwtSecurityToken(
+    //            issuer: _configuration["Jwt:Issuer"],
+    //            audience: _configuration["Jwt:Audience"],
+    //            claims: claims,
+    //            expires: DateTime.UtcNow.AddMinutes(
+    //                Convert.ToDouble(_configuration["Jwt:DurationInMinutes"])),
+    //            signingCredentials: creds);
+
 
     //        return Ok(new
     //        {
